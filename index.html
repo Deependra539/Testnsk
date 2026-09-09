@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>シンプルなWebサイト</title>
+
+  <style>
+    /* ページ全体 */
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
+      font-family: Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+      color: #333;
+      background-color:	#00FF00;
+    }
+
+    /* ヘッダー */
+    header {
+      padding: 24px;
+      text-align: center;
+      color: white;
+      background-color: #808000;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    /* メイン */
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px 120px;
+      color: #FFFF00;
+    }
+
+    section {
+      margin-bottom: 40px;
+      padding: 25px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #FFFF00;
+    }
+
+    /* フッター */
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 15px;
+      text-align: center;
+      color: #333;
+      background-color: #FFFF00;
+    }
+
+    footer p {
+      margin: 0 0 8px;
+    }
+
+    /* ソーシャルメディアリンク */
+    .social-links a {
+      margin: 0 8px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Simple website</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Introduction about website</h2>
+      <p>
+        This website is created by Raman during intership of NSK.
+      </p>
+    </section>
+
+    <section>
+      <h1>Our - Services</h1>
+      <p>
+        We are providing good website in low cost.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>For contact：info@example.com</p>
+
+    <div class="social-links">
+      <a href="#">X</a>
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+    </div>
+  </footer>
+
+</body>
+</html>
